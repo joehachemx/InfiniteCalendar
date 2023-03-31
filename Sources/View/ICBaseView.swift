@@ -135,7 +135,7 @@ open class ICBaseView<View: CellableView, Cell: ViewHostingCell<View>, Settings:
         collectionView.bounces = true
         collectionView.showsVerticalScrollIndicator = true
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.backgroundColor = .white
+//        collectionView.backgroundColor = 
         addSubview(collectionView)
         collectionView.setAnchorConstraintsFullSizeTo(view: self)
         
